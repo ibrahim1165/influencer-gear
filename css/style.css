@@ -129,23 +129,32 @@ hr{
  color: #ec0aecfb;
     
 }
-/* fotter */
- .footer{
-     justify-content:center;
-     text-align:center;
-    left:0;
-    bottom: 0;
-    color:white;
-    text-align:center;
+.photo-pic{
+    justify-content:center;
     display:flex;
-    background-color:#01006a;
-    width: 2000px;
-    height: 200px;
+    margin:50px;
+    margin-left:150px;
+    margin-right:150px;
+    display: flex;
 }
-.copy-right{
-    padding: 20px;
-    font-size: 20px;
-    margin-top:20px;
-    color:aliceblue;
+.photo-title{
+    margin: 10px;
+    text-align:center;
+    font-size:25px;
 }
+.photo-title-2{
+    font-size:30px;
+}
+.photo-description{
+    font-size:16px;
+    margin: 0px 20px;
+    padding: 32px;
+}
+/* fotter */
+.footor{
+    background-color:darkblue;
+    height:auto;
+    width:100vh;
+}
+
 

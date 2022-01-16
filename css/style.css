@@ -152,9 +152,23 @@ hr{
 }
 /* fotter */
 .footor{
-    background-color:darkblue;
-    height:auto;
-    width:100vh;
+    background-color:#080679d8;
+    text-align:center;
+}
+ul li{
+    margin: 0px 10px;
+    justify-content: center;
+    text-align: center;
+    display:inline-block;
+}
+h4{
+    font-size:20px;
+    color: rgb(180, 189, 197);
+}
+.copyright{
+    color: rgb(235, 207, 207);
+    font-size:16px;
+    margin: 0px 10px;
 }
 
 

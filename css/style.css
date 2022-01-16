@@ -121,14 +121,13 @@ hr{
 .fa-star.emtay{
     color:#FFc014;
 }
-.see-text{
-    justify-content:center;
-    display:inline-block;
-  border:none;
-  border: 0px;
- color: #ec0aecfb;
-    
+.see-text {
+    float:right;
+    font-size:18px;
+    border:none;
+    color:#ec0aecfb;
 }
+   
 .photo-pic{
     justify-content:center;
     display:flex;
@@ -150,25 +149,55 @@ hr{
     margin: 0px 20px;
     padding: 32px;
 }
-/* fotter */
+/* fotter 
+-----------*/
+
 .footor{
     background-color:#101010;
     text-align:center;
 }
 ul li{
+    color:#D1D1D1;
     margin: 0px 10px;
-    justify-content: center;
-    text-align: center;
-    display:inline-block;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    display:inline;
 }
 h4{
     font-size:20px;
-    color: rgb(241, 223, 223);
+    color: rgb(170, 162, 162);
 }
 .copyright{
-    color: rgb(238, 229, 229);
+    color: rgb(139, 133, 133);
     font-size:16px;
     margin: 0px 10px;
 }
-
-
+/* midia-content
+---------- */
+/* mobile-divice 
+------------- */
+@media only screen and (max-width:688px){
+    body{
+        position:relative;
+    }
+      .nav{
+          grid-template-columns:repeat(2,1fr);
+      }
+     .continar{
+         display:block;
+         justify-content:column;
+         grid-template-columns: repeat(1,1fr);
+     }
+     .album{
+         height:10%;
+         justify-content: center;
+         grid-template-columns:repeat(1,1fr);
+     }
+     .photo-pic{
+         width:20%;
+         display: block;
+         justify-content: center;
+         grid-template-columns: repeat(1,1fr);
+     }
+      }

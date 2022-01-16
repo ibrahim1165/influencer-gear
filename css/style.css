@@ -152,7 +152,7 @@ hr{
 }
 /* fotter */
 .footor{
-    background-color:#080679d8;
+    background-color:#101010;
     text-align:center;
 }
 ul li{
@@ -163,10 +163,10 @@ ul li{
 }
 h4{
     font-size:20px;
-    color: rgb(180, 189, 197);
+    color: rgb(241, 223, 223);
 }
 .copyright{
-    color: rgb(235, 207, 207);
+    color: rgb(238, 229, 229);
     font-size:16px;
     margin: 0px 10px;
 }

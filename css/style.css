@@ -69,7 +69,7 @@ nav ul li{
     border-radius:20px;
     padding:10px;
     margin-top:20px;
-    color:rgb(177, 162, 162);
+    color:rgb(233, 209, 209);
     background-color:#ec0aecfb;
 }
 hr{
@@ -91,6 +91,26 @@ hr{
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 20px;
 }
+.album-heading{
+    font-size:30px;
+}
+.album-box{
+    border-radius: 5px solid;
+}
+.dollar{
+    font-size:20px;
+}
+.rating{
+    font-size:10px;
+    padding: 5px;
+}
+.album-disception{
+    color:#3a393bf1;
+    font-size:16px;
+    margin:0px 5px;
+    padding:5px;
+}
+
 
 .fa-star{
     font-size:12px;
@@ -101,3 +121,31 @@ hr{
 .fa-star.emtay{
     color:#FFc014;
 }
+.see-text{
+    justify-content:center;
+    display:inline-block;
+  border:none;
+  border: 0px;
+ color: #ec0aecfb;
+    
+}
+/* fotter */
+ .footer{
+     justify-content:center;
+     text-align:center;
+    left:0;
+    bottom: 0;
+    color:white;
+    text-align:center;
+    display:flex;
+    background-color:#01006a;
+    width: 2000px;
+    height: 200px;
+}
+.copy-right{
+    padding: 20px;
+    font-size: 20px;
+    margin-top:20px;
+    color:aliceblue;
+}
+
